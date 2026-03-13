@@ -2,170 +2,344 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>QR & Barcode Scanner – Safe & Fast QR Code Reader</title>
-<meta name="description" content="QR & Barcode Scanner is the fastest and safest QR code reader on Android. Scan instantly, create QR codes, and stay protected. Download free!">
-<meta name="keywords" content="QR Scanner, Barcode Scanner, QR code reader, QR generator, Android QR app, safe QR scanner">
+<title>QR Scanner & Barcode Scanner – Safe QR Code Reader | Free No Ads</title>
 
-<!-- Favicon -->
-<link rel="icon" type="image/png" href="https://image2url.com/r2/default/images/1773217532654-8026c833-cac8-4502-9972-5bfddc8a6b3d.pngg" />
-<link rel="apple-touch-icon" sizes="180x180" href="https://image2url.com/r2/default/images/1773217532654-8026c833-cac8-4502-9972-5bfddc8a6b3d.png">
+<meta name="description" content="Fast QR scanner and barcode scanner for Android. Scan QR code instantly, connect to WiFi QR codes, and generate QR codes. Free QR code scanner without ads.">
 
-<!-- Tailwind CSS -->
+<meta name="keywords" content="qr scanner, barcode scanner, qr code reader, qr code scanner, qr scanner no ads, safe qr scanner, wifi qr code, qr code generator, barcode reader free, scan qr code, qr reader, qr scanner without ads, qr code scanner free no ads, safe barcode scanner, qr code wifi password">
+
+<link rel="icon" href="https://image2url.com/r2/default/images/1773217532654-8026c833-cac8-4502-9972-5bfddc8a6b3d.png">
+
 <script src="https://cdn.tailwindcss.com"></script>
 
-<!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
-body { font-family: 'Inter', sans-serif; }
+
+body{
+font-family:'Inter',sans-serif;
+background:#04153A;
+color:#DCDCF0;
+}
+
+.scan-box{
+width:260px;
+height:260px;
+border:4px solid #DCDCF0;
+position:relative;
+margin:auto;
+}
+
+.scan-line{
+position:absolute;
+width:100%;
+height:4px;
+background:#47CF65;
+animation:scan 2s infinite;
+}
+
+@keyframes scan{
+0%{top:0}
+100%{top:100%}
+}
+
+.card{
+background:#0A214F;
+padding:25px;
+border-radius:12px;
+}
+
+.download-btn{
+background:#47CF65;
+color:black;
+}
+
+.primary-btn{
+background:#4987B8;
+}
+
 </style>
+
+
+<!-- APP STRUCTURED DATA -->
+
+<script type="application/ld+json">
+
+{
+"@context":"https://schema.org",
+"@type":"MobileApplication",
+"name":"QR & Barcode Scanner",
+"operatingSystem":"Android",
+"applicationCategory":"UtilitiesApplication",
+"offers":{
+"@type":"Offer",
+"price":"0",
+"priceCurrency":"USD"
+},
+"description":"Fast QR scanner and barcode scanner with security alerts, WiFi QR code support, and QR code generator.",
+"downloadUrl":"https://play.google.com/store/apps/details?id=com.teknoefsun.qr"
+}
+
+</script>
+
+
+<!-- FAQ SCHEMA -->
+
+<script type="application/ld+json">
+
+{
+"@context":"https://schema.org",
+"@type":"FAQPage",
+"mainEntity":[
+{
+"@type":"Question",
+"name":"Is this QR scanner free?",
+"acceptedAnswer":{"@type":"Answer","text":"Yes. The QR scanner is completely free and does not show malicious ads."}
+},
+{
+"@type":"Question",
+"name":"Can I scan WiFi QR codes?",
+"acceptedAnswer":{"@type":"Answer","text":"Yes. You can scan WiFi QR codes and connect instantly without typing the password."}
+},
+{
+"@type":"Question",
+"name":"Does the QR scanner work offline?",
+"acceptedAnswer":{"@type":"Answer","text":"Yes. The app works offline and does not require an account."}
+}
+]
+}
+
+</script>
 
 </head>
 
-<body class="bg-gray-50 text-gray-800">
+<body>
+
+
 
 <!-- NAVBAR -->
-<header class="bg-white shadow">
-  <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-    <h1 class="text-2xl font-bold text-indigo-600">QR Scanner Pro</h1>
-    <a href="https://play.google.com/store/apps/details?id=com.teknoefsun.qr"
-       class="bg-indigo-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-indigo-700">
-       Download
-    </a>
-  </div>
+
+<header class="shadow">
+
+<div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+
+<h1 class="text-2xl font-bold">QR Scanner</h1>
+
+<a href="https://play.google.com/store/apps/details?id=com.teknoefsun.qr"
+class="download-btn px-6 py-2 rounded-lg font-semibold">
+
+Download
+
+</a>
+
+</div>
+
 </header>
 
+
+
 <!-- HERO -->
+
 <section class="max-w-6xl mx-auto px-4 py-24 grid md:grid-cols-2 gap-12 items-center">
-<div>
-<h2 class="text-5xl font-bold mb-6 leading-tight">📱 QR & Barcode Scanner — Fast, Safe, Honest</h2>
-<p class="text-lg text-gray-600 mb-8">
-QR & Barcode Scanner is the fastest, safest, and most honest QR code reader on Android.  
-No malicious ads. No fake subscriptions. Works offline and instantly.
-</p>
-<a href="https://play.google.com/store/apps/details?id=com.teknoefsun.qr"
-   class="bg-indigo-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700">
-   Download on Google Play
-</a>
-</div>
 
 <div>
-<!-- SCREENSHOTS CAROUSEL -->
-<section class="py-24 bg-gray-50 text-center">
-<h3 class="text-4xl font-bold mb-12">App Screenshots</h3>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-<div class="swiper mySwiper">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide">
-      <img src="https://play-lh.googleusercontent.com/vDoKEH_GURNOLRum9jyfO2-soyT5PRPGh9xxPz0CuGMFNK1s1hgSPMhwZBtcNuvQXeWDKylQQqLYRVB44nHf5g=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="QR Scanner Screenshot 1">
-    </div>
-    <div class="swiper-slide">
-      <img src="https://play-lh.googleusercontent.com/ngWATP2GoY2BAwigajhpsgyeieygjcxitPCEwoteohfARt52z05xY6-pjnpS3YtqA_ZD-ovXuHoCCTNYyR6L=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="QR Scanner Screenshot 2">
-    </div>
-    <div class="swiper-slide">
-      <img src="https://play-lh.googleusercontent.com/rA1sMxZhU6xEo9wVqPOL_-W0uAZhvF8RFEg5-4FCJ6gtC4GKXFXbrRGYXR67kdz3lXFy0mTauT4zllNXTX0alA=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="QR Scanner Screenshot 3">
-    </div>
-  </div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-pagination mt-6"></div>
+
+<h2 class="text-5xl font-bold mb-6 leading-tight">
+
+Fast QR Scanner & Barcode Scanner
+
+</h2>
+
+<p class="text-lg mb-8 text-gray-300">
+
+QR & Barcode Scanner is the fastest and safest QR code reader for Android.  
+Scan QR codes instantly, connect to WiFi QR codes, and generate QR codes easily.
+
+</p>
+
+<a href="https://play.google.com/store/apps/details?id=com.teknoefsun.qr"
+class="primary-btn text-white px-8 py-4 rounded-lg text-lg font-semibold">
+
+Download on Google Play
+
+</a>
+
 </div>
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-<script>
-const swiper = new Swiper(".mySwiper", {
-slidesPerView: 1,
-spaceBetween: 20,
-loop: true,
-pagination: { el: ".swiper-pagination", clickable: true },
-navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
-breakpoints: { 768: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }
-});
-</script>
-</section>
+
+
+<div>
+
+<div class="scan-box">
+
+<div class="scan-line"></div>
+
 </div>
+
+</div>
+
 </section>
+
+
+
+<!-- SCREENSHOTS -->
+
+<section class="py-24 text-center">
+
+<h3 class="text-4xl font-bold mb-16">App Screenshots</h3>
+
+<div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 px-4">
+
+<img src="https://play-lh.googleusercontent.com/Rxz4ZIySZ35W4sIvKeX5gEn_EfN13vFgUlAMubYgsihbXxD2tpG716p8kHUMGtnXpGmlJCoYn3wueyoek3060T4=w5120-h2880-rw" class="rounded-xl shadow-lg">
+
+<img src="https://play-lh.googleusercontent.com/sudXtXXNcyu9KeDHfaxfWf2chRDFnA835JlJqNSX0L5GsElqizs8iKWk3EJ09TiuMcI0Q-qBUxKe_5YGWYodMA=w5120-h2880-rw" class="rounded-xl shadow-lg">
+
+<img src="https://play-lh.googleusercontent.com/-uFM1L71RQ0ggHFdnaLBuHSrrBo1AP6TSh2TgC_lRz0fbtznspiUb3ZLVYuzNmf59vbXKv5XRODKe0ae13Aw=w5120-h2880-rw" class="rounded-xl shadow-lg">
+
+<img src="https://play-lh.googleusercontent.com/AQ992SywVzEKfu5Rl2WWe8xbhXz5c-ZbyTAP4ITyYmcZyak2veqUjHVMkPQ7S7u7uFYLubUy8YL3mKs0ocCL8hMw=w5120-h2880-rw" class="rounded-xl shadow-lg">
+
+<img src="https://play-lh.googleusercontent.com/S-7GwWCvxXFi9dJaEXdjdcNUW56nb-51WC_WpBASibJ4QCwJz_LnR5KXHMtoZO8u2VW3BM_0GIzcyLFFkFORbQ=w5120-h2880-rw" class="rounded-xl shadow-lg">
+
+<img src="https://play-lh.googleusercontent.com/dSI_GNG-DVVq25JNMGb2CYJP7oa37uzeTo376Ib0lgMM3SeSURiXMCsa8ecy4CNjJ8mbnJxT4mxP_WL7I2u9qX8=w5120-h2880-rw" class="rounded-xl shadow-lg">
+
+<img src="https://play-lh.googleusercontent.com/U9Ga14yuAMAV1mCGJ5qUPm75tcUvD8h_7XN4kgJETN66UQrVEauwtVmQxWcjP_uascB5ssMUXoLua-0axKxH=w5120-h2880-rw" class="rounded-xl shadow-lg">
+
+<img src="https://play-lh.googleusercontent.com/oCQ6Vrg7jlkaBMI7X0KUE3B2jCTAh_8immPbml-Kj3G6N6Q9872_vYJ6t_NNf6Ai02sc62FLR1xgf7w-BsyCaA=w5120-h2880-rw" class="rounded-xl shadow-lg">
+
+</div>
+
+</section>
+
+
 
 <!-- FEATURES -->
-<section class="py-24 bg-white">
+
+<section class="py-24">
+
 <div class="max-w-6xl mx-auto px-4">
+
 <h3 class="text-4xl font-bold text-center mb-16">Powerful Features</h3>
+
 <div class="grid md:grid-cols-3 gap-10">
-<div>
-<h4 class="font-semibold text-xl mb-2">⚡ Instant Scanning</h4>
-<p class="text-gray-600">Point your camera at any QR or barcode and scan instantly using Google ML Kit.</p>
+
+<div class="card">
+<h4 class="text-xl font-semibold mb-2">⚡ Instant Scanning</h4>
+<p class="text-gray-300">Scan QR code or barcode instantly using Google ML Kit.</p>
 </div>
-<div>
-<h4 class="font-semibold text-xl mb-2">🔐 Security Alerts</h4>
-<p class="text-gray-600">All URLs checked for phishing, malware, and suspicious patterns before opening.</p>
+
+<div class="card">
+<h4 class="text-xl font-semibold mb-2">🔐 Security Alerts</h4>
+<p class="text-gray-300">Protection against phishing and malicious URLs.</p>
 </div>
-<div>
-<h4 class="font-semibold text-xl mb-2">📋 Scan History</h4>
-<p class="text-gray-600">View, search, filter, favorite, or export scan history anytime.</p>
+
+<div class="card">
+<h4 class="text-xl font-semibold mb-2">📶 WiFi QR Codes</h4>
+<p class="text-gray-300">Scan WiFi QR codes and connect instantly.</p>
 </div>
-<div>
-<h4 class="font-semibold text-xl mb-2">⚡ Create QR Codes</h4>
-<p class="text-gray-600">Generate QR codes for URLs, WiFi, contacts, emails, phone numbers, and share instantly.</p>
+
+<div class="card">
+<h4 class="text-xl font-semibold mb-2">📋 Scan History</h4>
+<p class="text-gray-300">All scanned codes saved automatically.</p>
 </div>
-<div>
-<h4 class="font-semibold text-xl mb-2">🌐 Scan All Formats</h4>
-<p class="text-gray-600">QR, Barcode, EAN, UPC, Code 39/128, Data Matrix, Aztec, PDF-417 and more.</p>
+
+<div class="card">
+<h4 class="text-xl font-semibold mb-2">⚡ QR Code Generator</h4>
+<p class="text-gray-300">Create QR codes for links, contacts and WiFi.</p>
 </div>
-<div>
-<h4 class="font-semibold text-xl mb-2">🌙 Dark Mode & Flashlight</h4>
-<p class="text-gray-600">Automatic dark theme, torch toggle, and pinch-to-zoom for better scanning in all conditions.</p>
+
+<div class="card">
+<h4 class="text-xl font-semibold mb-2">📴 Offline Mode</h4>
+<p class="text-gray-300">Works offline with no account required.</p>
 </div>
+
 </div>
+
 </div>
+
 </section>
 
-<!-- USE CASES -->
-<section class="py-24 bg-gray-50">
-<div class="max-w-5xl mx-auto px-4 text-center">
-<h3 class="text-4xl font-bold mb-12">Perfect For</h3>
-<div class="grid md:grid-cols-2 gap-8 text-left">
+
+
+<!-- FAQ -->
+
+<section class="py-24 text-center">
+
+<h3 class="text-4xl font-bold mb-12">Frequently Asked Questions</h3>
+
+<div class="max-w-3xl mx-auto space-y-8 text-left">
+
 <div>
-<ul class="space-y-3 text-gray-700">
-<li>📦 Product Barcodes</li>
-<li>💻 URLs & App Links</li>
-<li>📶 WiFi QR codes</li>
-<li>📄 Documents & Contacts</li>
-</ul>
+<h4 class="font-semibold text-xl">Is this QR scanner safe?</h4>
+<p class="text-gray-300">Yes. Every scanned link is checked for malicious patterns.</p>
 </div>
+
 <div>
-<ul class="space-y-3 text-gray-700">
-<li>🛡️ Safe browsing & phishing alerts</li>
-<li>📤 Export scan history as CSV</li>
-<li>🖼️ Generate & share QR codes</li>
-<li>🌙 Dark mode & accessibility features</li>
-</ul>
+<h4 class="font-semibold text-xl">Does the QR scanner work offline?</h4>
+<p class="text-gray-300">Yes. The app works offline and does not require an account.</p>
 </div>
+
+<div>
+<h4 class="font-semibold text-xl">Can I generate QR codes?</h4>
+<p class="text-gray-300">Yes. The app includes a built-in QR code generator.</p>
 </div>
+
 </div>
+
 </section>
+
+
 
 <!-- CTA -->
+
 <section class="py-24 text-center">
-<h3 class="text-4xl font-bold mb-6">Scan & Generate QR Codes Safely</h3>
-<p class="text-gray-600 mb-10">Download QR & Barcode Scanner now and experience fast, secure scanning without ads or subscriptions.</p>
+
+<h3 class="text-4xl font-bold mb-6">
+
+Download the Safe QR Scanner
+
+</h3>
+
+<p class="text-gray-300 mb-10">
+
+Free QR scanner without ads with powerful security protection.
+
+</p>
+
 <a href="https://play.google.com/store/apps/details?id=com.teknoefsun.qr"
-   class="bg-indigo-600 text-white px-10 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700">
-   Download Free
+class="download-btn px-10 py-4 rounded-lg text-lg font-semibold">
+
+Get it on Google Play
+
 </a>
+
 </section>
 
+
+
 <!-- FOOTER -->
-<footer class="bg-gray-900 text-gray-400 py-10">
+
+<footer class="py-10 border-t border-gray-700">
+
 <div class="max-w-6xl mx-auto px-4 flex justify-between">
-<p>© 2026 Tekno Efsun (SMC- PVT) Ltd. </p>
+
+<p>© 2026 Tekno Efsun (SMC-PVT) Ltd.</p>
+
 <div class="space-x-6">
-<a href="https://aysecs11.github.io/qrcode/" class="hover:text-white">Privacy</a>
+
+<a href="https://aysecs11.github.io/qr/privacy-policy.html" class="hover:text-white">Privacy Policy</a>
+
 <a href="mailto:teknoefsun@gmail.com" class="hover:text-white">Contact</a>
+
 </div>
+
 </div>
+
 </footer>
+
+
 
 </body>
 </html>
