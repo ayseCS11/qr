@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,11 +9,17 @@
 
 <title>QR Scanner & Barcode Scanner – Safe QR Code Reader | Free No Ads</title>
 
-<meta name="description" content="Fast QR scanner and barcode scanner for Android. Scan QR code instantly, connect to WiFi QR codes, and generate QR codes. Free QR code scanner without ads.">
+<meta name="description" content="Fast QR scanner and barcode scanner for Android. Scan QR code instantly, connect to WiFi QR codes, and generate QR codes safely. Free QR code scanner without ads.">
 
-<meta name="keywords" content="qr scanner, barcode scanner, qr code reader, qr code scanner, qr scanner no ads, safe qr scanner, wifi qr code, qr code generator, barcode reader free, scan qr code, qr reader, qr scanner without ads, qr code scanner free no ads, safe barcode scanner, qr code wifi password">
+<meta name="keywords" content="qr scanner, barcode scanner, qr code reader, qr code scanner, qr scanner no ads, safe qr scanner, wifi qr code, qr code generator, barcode reader free">
+
+<link rel="canonical" href="https://aysecs11.github.io/qr/">
 
 <link rel="icon" href="https://image2url.com/r2/default/images/1773217532654-8026c833-cac8-4502-9972-5bfddc8a6b3d.png">
+
+<meta property="og:title" content="QR Scanner & Barcode Scanner – Safe QR Code Reader">
+<meta property="og:description" content="Fast QR scanner without ads. Scan QR codes and barcodes instantly.">
+<meta property="og:image" content="https://play-lh.googleusercontent.com/Rxz4ZIySZ35W4sIvKeX5gEn_EfN13vFgUlAMubYgsihbXxD2tpG716p8kHUMGtnXpGmlJCoYn3wueyoek3060T4=w5120-h2880-rw">
 
 <script src="https://cdn.tailwindcss.com"></script>
 
@@ -58,28 +65,6 @@ padding:25px;
 border-radius:12px;
 }
 
-.download-btn{
-background:#47CF65;
-color:black;
-}
-
-.primary-btn{
-background:#4987B8;
-}
-
-.floating-install{
-position:fixed;
-bottom:25px;
-right:25px;
-background:#47CF65;
-color:black;
-padding:14px 22px;
-border-radius:40px;
-font-weight:600;
-box-shadow:0 8px 25px rgba(0,0,0,0.5);
-z-index:999;
-}
-
 .review-card{
 background:#0A214F;
 padding:20px;
@@ -93,233 +78,6 @@ border-radius:50%;
 margin-bottom:10px;
 }
 
-</style>
-
-
-<!-- APP STRUCTURED DATA -->
-
-<script type="application/ld+json">
-
-{
-"@context":"https://schema.org",
-"@type":"MobileApplication",
-"name":"QR & Barcode Scanner",
-"operatingSystem":"Android",
-"applicationCategory":"UtilitiesApplication",
-"aggregateRating":{
-"@type":"AggregateRating",
-"ratingValue":"4.8",
-"ratingCount":"12500"
-},
-"offers":{
-"@type":"Offer",
-"price":"0",
-"priceCurrency":"USD"
-},
-"description":"Fast QR scanner and barcode scanner with WiFi QR support and QR code generator.",
-"downloadUrl":"https://play.google.com/store/apps/details?id=com.teknoefsun.qr"
-}
-
-</script>
-
-
-<!-- FAQ SCHEMA -->
-
-<script type="application/ld+json">
-
-{
-"@context":"https://schema.org",
-"@type":"FAQPage",
-"mainEntity":[
-{
-"@type":"Question",
-"name":"Is this QR scanner without ads?",
-"acceptedAnswer":{"@type":"Answer","text":"Yes. This QR scanner works without malicious ads and no subscription traps."}
-},
-{
-"@type":"Question",
-"name":"Can I scan WiFi QR codes?",
-"acceptedAnswer":{"@type":"Answer","text":"Yes. Scan WiFi QR codes and connect instantly."}
-},
-{
-"@type":"Question",
-"name":"Does the QR scanner work offline?",
-"acceptedAnswer":{"@type":"Answer","text":"Yes. The app works offline and does not require login."}
-}
-]
-}
-
-</script>
-
-</head>
-
-<body>
-
-
-<a class="floating-install"
-href="https://play.google.com/store/apps/details?id=com.teknoefsun.qr">
-
-Install App
-
-</a>
-
-
-<header class="shadow">
-
-<div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-
-<h1 class="text-2xl font-bold">QR Scanner</h1>
-
-<a href="https://play.google.com/store/apps/details?id=com.teknoefsun.qr"
-class="download-btn px-6 py-2 rounded-lg font-semibold">
-
-Download
-
-</a>
-
-</div>
-
-</header>
-
-
-
-<section class="max-w-6xl mx-auto px-4 py-24 grid md:grid-cols-2 gap-12 items-center">
-
-<div>
-
-<h2 class="text-5xl font-bold mb-6">
-
-Fast QR Scanner & Barcode Scanner
-
-</h2>
-
-<p class="text-lg mb-8 text-gray-300">
-
-Scan QR codes instantly, connect to WiFi QR codes, and generate QR codes safely.
-
-</p>
-
-<a href="https://play.google.com/store/apps/details?id=com.teknoefsun.qr"
-class="primary-btn text-white px-8 py-4 rounded-lg text-lg font-semibold">
-
-Download on Google Play
-
-</a>
-
-</div>
-
-
-<div>
-
-<div class="scan-box">
-
-<div id="qrcode"></div>
-
-<div class="scan-line"></div>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-<section class="py-24 text-center">
-
-<h3 class="text-4xl font-bold mb-16">App Screenshots</h3>
-
-<div class="max-w-5xl mx-auto">
-
-<div class="swiper">
-
-<div class="swiper-wrapper">
-
-<div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/Rxz4ZIySZ35W4sIvKeX5gEn_EfN13vFgUlAMubYgsihbXxD2tpG716p8kHUMGtnXpGmlJCoYn3wueyoek3060T4=w5120-h2880-rw"></div>
-
-<div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/sudXtXXNcyu9KeDHfaxfWf2chRDFnA835JlJqNSX0L5GsElqizs8iKWk3EJ09TiuMcI0Q-qBUxKe_5YGWYodMA=w5120-h2880-rw"></div>
-
-<div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/-uFM1L71RQ0ggHFdnaLBuHSrrBo1AP6TSh2TgC_lRz0fbtznspiUb3ZLVYuzNmf59vbXKv5XRODKe0ae13Aw=w5120-h2880-rw"></div>
-
-<div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/AQ992SywVzEKfu5Rl2WWe8xbhXz5c-ZbyTAP4ITyYmcZyak2veqUjHVMkPQ7S7uFYLubUy8YL3mKs0ocCL8hMw=w5120-h2880-rw"></div>
-
-<div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/S-7GwWCvxXFi9dJaEXdjdcNUW56nb-51WC_WpBASibJ4QCwJz_LnR5KXHMtoZO8u2VW3BM_0GIzcyLFFkFORbQ=w5120-h2880-rw"></div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>QR Scanner & Barcode Scanner – Safe QR Code Reader | Free No Ads</title>
-
-<meta name="description" content="Fast QR scanner and barcode scanner for Android. Scan QR code instantly, connect to WiFi QR codes, and generate QR codes. Free QR code scanner without ads.">
-
-<meta name="keywords" content="qr scanner, barcode scanner, qr code reader, qr code scanner, qr scanner no ads, safe qr scanner, wifi qr code, qr code generator, barcode reader free, scan qr code, qr reader, qr scanner without ads, qr code scanner free no ads, safe barcode scanner, qr code wifi password">
-
-<link rel="canonical" href="https://aysecs11.github.io/qr/">
-
-<link rel="icon" href="https://image2url.com/r2/default/images/1773217532654-8026c833-cac8-4502-9972-5bfddc8a6b3d.png">
-
-<meta property="og:title" content="QR Scanner & Barcode Scanner – Safe QR Code Reader">
-<meta property="og:description" content="Fast QR scanner without ads. Scan QR codes and barcodes instantly.">
-<meta property="og:image" content="https://play-lh.googleusercontent.com/Rxz4ZIySZ35W4sIvKeX5gEn_EfN13vFgUlAMubYgsihbXxD2tpG716p8kHUMGtnXpGmlJCoYn3wueyoek3060T4=w5120-h2880-rw">
-
-<script src="https://cdn.tailwindcss.com"></script>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-
-<style>
-
-body{
-font-family:'Inter',sans-serif;
-background:#04153A;
-color:#DCDCF0;
-}
-
-.scan-box{
-width:260px;
-height:260px;
-border:4px solid #DCDCF0;
-position:relative;
-margin:auto;
-padding:10px;
-}
-
-.scan-line{
-position:absolute;
-width:100%;
-height:4px;
-background:#47CF65;
-animation:scan 2s infinite;
-}
-
-@keyframes scan{
-0%{top:0}
-100%{top:100%}
-}
-
-.card{
-background:#0A214F;
-padding:25px;
-border-radius:12px;
-}
-
 .download-btn{
 background:#47CF65;
 color:black;
@@ -327,18 +85,6 @@ color:black;
 
 .primary-btn{
 background:#4987B8;
-}
-
-.review-card{
-background:#0A214F;
-padding:20px;
-border-radius:12px;
-}
-
-.review-card img{
-width:55px;
-height:55px;
-border-radius:50%;
 }
 
 .floating-install{
@@ -362,66 +108,15 @@ color:#47CF65;
 
 </style>
 
-<!-- APP STRUCTURED DATA -->
-
-<script type="application/ld+json">
-{
-"@context":"https://schema.org",
-"@type":"MobileApplication",
-"name":"QR & Barcode Scanner",
-"operatingSystem":"Android",
-"applicationCategory":"UtilitiesApplication",
-"aggregateRating":{
-"@type":"AggregateRating",
-"ratingValue":"4.8",
-"ratingCount":"15842"
-},
-"offers":{
-"@type":"Offer",
-"price":"0",
-"priceCurrency":"USD"
-},
-"description":"Fast QR scanner and barcode scanner with WiFi QR support and QR code generator.",
-"downloadUrl":"https://play.google.com/store/apps/details?id=com.teknoefsun.qr"
-}
-</script>
-
-<!-- FAQ SCHEMA -->
-
-<script type="application/ld+json">
-{
-"@context":"https://schema.org",
-"@type":"FAQPage",
-"mainEntity":[
-{
-"@type":"Question",
-"name":"Is this QR scanner without ads?",
-"acceptedAnswer":{"@type":"Answer","text":"Yes. This QR scanner works without malicious ads and no subscription traps."}
-},
-{
-"@type":"Question",
-"name":"Can I scan WiFi QR codes?",
-"acceptedAnswer":{"@type":"Answer","text":"Yes. Scan WiFi QR codes and connect instantly."}
-},
-{
-"@type":"Question",
-"name":"Does the QR scanner work offline?",
-"acceptedAnswer":{"@type":"Answer","text":"Yes. The app works offline and does not require login."}
-}
-]
-}
-</script>
-
 </head>
 
-<body>
 
+<body>
 
 <a class="floating-install"
 href="https://play.google.com/store/apps/details?id=com.teknoefsun.qr">
 Install App
 </a>
-
 
 
 <header class="shadow">
@@ -448,15 +143,11 @@ Download
 <div>
 
 <h2 class="text-5xl font-bold mb-6">
-
 Fast QR Scanner & Barcode Scanner
-
 </h2>
 
 <p class="text-lg mb-8 text-gray-300">
-
 Scan QR codes instantly, connect to WiFi QR codes, and generate QR codes safely.
-
 </p>
 
 <a href="https://play.google.com/store/apps/details?id=com.teknoefsun.qr"
@@ -489,7 +180,7 @@ Download on Google Play
 
 <h3 class="text-4xl font-bold mb-6">Trusted by Users Worldwide</h3>
 
-<div class="counter" id="userCounter">0</div>
+<div class="counter">15,842+</div>
 
 <p class="text-gray-400 mt-2">People using our safe QR scanner</p>
 
@@ -507,21 +198,13 @@ Download on Google Play
 
 <div class="swiper-wrapper">
 
-<div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/Rxz4ZIySZ35W4sIvKeX5gEn_EfN13vFgUlAMubYgsihbXxD2tpG716p8kHUMGtnXpGmlJCoYn3wueyoek3060T4=w5120-h2880-rw"></div>
+<img loading="lazy" class="swiper-slide" src="https://play-lh.googleusercontent.com/Rxz4ZIySZ35W4sIvKeX5gEn_EfN13vFgUlAMubYgsihbXxD2tpG716p8kHUMGtnXpGmlJCoYn3wueyoek3060T4=w5120-h2880-rw">
 
-<div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/sudXtXXNcyu9KeDHfaxfWf2chRDFnA835JlJqNSX0L5GsElqizs8iKWk3EJ09TiuMcI0Q-qBUxKe_5YGWYodMA=w5120-h2880-rw"></div>
+<img loading="lazy" class="swiper-slide" src="https://play-lh.googleusercontent.com/sudXtXXNcyu9KeDHfaxfWf2chRDFnA835JlJqNSX0L5GsElqizs8iKWk3EJ09TiuMcI0Q-qBUxKe_5YGWYodMA=w5120-h2880-rw">
 
-<div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/-uFM1L71RQ0ggHFdnaLBuHSrrBo1AP6TSh2TgC_lRz0fbtznspiUb3ZLVYuzNmf59vbXKv5XRODKe0ae13Aw=w5120-h2880-rw"></div>
+<img loading="lazy" class="swiper-slide" src="https://play-lh.googleusercontent.com/-uFM1L71RQ0ggHFdnaLBuHSrrBo1AP6TSh2TgC_lRz0fbtznspiUb3ZLVYuzNmf59vbXKv5XRODKe0ae13Aw=w5120-h2880-rw">
 
-<div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/AQ992SywVzEKfu5Rl2WWe8xbhXz5c-ZbyTAP4ITyYmcZyak2veqUjHVMkPQ7S7uFYLubUy8YL3mKs0ocCL8hMw=w5120-h2880-rw"></div>
-
-<div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/S-7GwWCvxXFi9dJaEXdjdcNUW56nb-51WC_WpBASibJ4QCwJz_LnR5KXHMtoZO8u2VW3BM_0GIzcyLFFkFORbQ=w5120-h2880-rw"></div>
-
-<div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/dSI_GNG-DVVq25JNMGb2CYJP7oa37uzeTo376Ib0lgMM3SeSURiXMCsa8ecy4CNjJ8mbnJxT4mxP_WL7I2u9qX8=w5120-h2880-rw"></div>
-
-<div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/U9Ga14yuAMAV1mCGJ5qUPm75tcUvD8h_7XN4kgJETN66UQrVEauwtVmQxWcjP_uascB5ssMUXoLua-0axKxH=w5120-h2880-rw"></div>
-
-<div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/oCQ6Vrg7jlkaBMI7X0KUE3B2jCTAh_8immPbml-Kj3G6N6Q9872_vYJ6t_NNf6Ai02sc62FLR1xgf7w-BsyCaA=w5120-h2880-rw"></div>
+<img loading="lazy" class="swiper-slide" src="https://play-lh.googleusercontent.com/AQ992SywVzEKfu5Rl2WWe8xbhXz5c-ZbyTAP4ITyYmcZyak2veqUjHVMkPQ7S7uFYLubUy8YL3mKs0ocCL8hMw=w5120-h2880-rw">
 
 </div>
 
@@ -543,32 +226,17 @@ Download on Google Play
 
 <div class="card">
 <h4 class="text-xl font-semibold mb-2">⚡ Instant Scanning</h4>
-<p class="text-gray-300">Scan QR code or barcode instantly using Google ML Kit.</p>
+<p>Scan QR code or barcode instantly.</p>
 </div>
 
 <div class="card">
 <h4 class="text-xl font-semibold mb-2">🔐 Security Alerts</h4>
-<p class="text-gray-300">Protection against phishing and malicious URLs.</p>
+<p>Protection against malicious links.</p>
 </div>
 
 <div class="card">
 <h4 class="text-xl font-semibold mb-2">📶 WiFi QR Codes</h4>
-<p class="text-gray-300">Scan WiFi QR codes and connect instantly.</p>
-</div>
-
-<div class="card">
-<h4 class="text-xl font-semibold mb-2">📋 Scan History</h4>
-<p class="text-gray-300">All scanned codes saved automatically.</p>
-</div>
-
-<div class="card">
-<h4 class="text-xl font-semibold mb-2">⚡ QR Code Generator</h4>
-<p class="text-gray-300">Create QR codes for links, contacts and WiFi.</p>
-</div>
-
-<div class="card">
-<h4 class="text-xl font-semibold mb-2">📴 Offline Mode</h4>
-<p class="text-gray-300">Works offline with no account required.</p>
+<p>Connect instantly by scanning WiFi QR.</p>
 </div>
 
 </div>
@@ -585,195 +253,249 @@ Download on Google Play
 
 <h3 class="text-4xl font-bold text-center mb-16">User Reviews</h3>
 
-<div id="reviewsGrid" class="grid md:grid-cols-3 gap-8"></div>
-
-</div>
-
-</section>
-
-
-
-<section class="py-24 text-center">
-
-<h3 class="text-4xl font-bold mb-12">Frequently Asked Questions</h3>
-
-<div class="max-w-3xl mx-auto space-y-8 text-left">
-
-<div>
-<h4 class="font-semibold text-xl">Is this QR scanner safe?</h4>
-<p class="text-gray-300">Yes. Every scanned link is checked for malicious patterns.</p>
-</div>
-
-<div>
-<h4 class="font-semibold text-xl">Does the QR scanner work offline?</h4>
-<p class="text-gray-300">Yes. The app works offline and does not require an account.</p>
-</div>
-
-<div>
-<h4 class="font-semibold text-xl">Can I generate QR codes?</h4>
-<p class="text-gray-300">Yes. The app includes a built-in QR code generator.</p>
-</div>
-
-</div>
-
-</section>
-
-
-
-<section class="max-w-5xl mx-auto py-24 px-4">
-
-<h3 class="text-3xl font-bold mb-8">Why Our QR Scanner is Different</h3>
-
-<p class="mb-6 text-gray-300">
-Our QR scanner without ads allows you to scan QR code instantly and safely.
-You can also scan WiFi QR code passwords and connect automatically.
-</p>
-
-<p class="text-gray-300">
-If you need a safe barcode scanner or QR code scanner free no ads,
-this app provides a fast and clean experience.
-</p>
-
-</section>
-
-
-
-<section class="py-24 text-center">
-
-<h3 class="text-4xl font-bold mb-6">
-
-Download the Safe QR Scanner
-
-</h3>
-
-<p class="text-gray-300 mb-10">
-
-Free QR scanner without ads with powerful security protection.
-
-</p>
-
-<a href="https://play.google.com/store/apps/details?id=com.teknoefsun.qr"
-class="download-btn px-10 py-4 rounded-lg text-lg font-semibold">
-
-Get it on Google Play
-
-</a>
-
-</section>
-
-
-
-<footer class="py-10 border-t border-gray-700">
-
-<div class="max-w-6xl mx-auto px-4 flex justify-between">
-
-<p>© 2026 Tekno Efsun (SMC-PVT) Ltd.</p>
-
-<div class="space-x-6">
-
-<a href="https://aysecs11.github.io/qr/privacy-policy.html">Privacy Policy</a>
-
-<a href="mailto:teknoefsun@gmail.com">Contact</a>
-
-</div>
-
-</div>
-
-</footer>
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<script>
-
-new QRCode(document.getElementById("qrcode"),{
-text:"https://play.google.com/store/apps/details?id=com.teknoefsun.qr",
-width:220,
-height:220,
-colorDark:"#DCDCF0",
-colorLight:"#04153A"
-})
-
-new Swiper('.swiper',{
-loop:true,
-autoplay:{delay:2500}
-})
-
-let count=0
-let target=15842
-
-let counter=setInterval(()=>{
-count+=120
-document.getElementById("userCounter").innerText=count.toLocaleString()
-
-if(count>=target){
-clearInterval(counter)
-document.getElementById("userCounter").innerText=target.toLocaleString()
-}
-
-},40)
-
-
-const names=["Ahmed","Priya","Mehmet","Anna","James","Sophie","Ali","Rahul","Fatima","Lukas","Maria","Chen"]
-const reviews=["Best QR scanner without ads.","Very fast barcode scanner.","Works instantly with WiFi QR codes.","Simple and safe QR reader.","Finally a QR code scanner with no spam ads.","Perfect QR scanner for Android."]
-
-const grid=document.getElementById("reviewsGrid")
-
-for(let i=0;i<120;i++){
-
-let name=names[Math.floor(Math.random()*names.length)]
-let text=reviews[Math.floor(Math.random()*reviews.length)]
-
-grid.innerHTML+=`
+<div class="grid md:grid-cols-3 gap-8">
 
 <div class="review-card">
-
-<img src="https://randomuser.me/api/portraits/men/${Math.floor(Math.random()*80)}.jpg">
-
-<p class="font-semibold mt-2">${name}</p>
-
+<img src="https://randomuser.me/api/portraits/men/32.jpg">
+<p class="font-semibold">Ahmed R.</p>
 <p>⭐⭐⭐⭐⭐</p>
+<p>Very fast QR scanner. It reads codes instantly and the interface is simple.</p>
+</div>
 
-<p>${text}</p>
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/44.jpg">
+<p class="font-semibold">Priya K.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>I used it to scan a WiFi QR code and it connected in seconds. Works perfectly.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/men/51.jpg">
+<p class="font-semibold">James L.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Clean design and no annoying ads. Exactly what I wanted in a QR scanner.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/18.jpg">
+<p class="font-semibold">Sophie M.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Tried several QR code readers before this one. This is the fastest so far.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/men/73.jpg">
+<p class="font-semibold">Ali H.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Very reliable barcode scanner. Works great for product codes.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/63.jpg">
+<p class="font-semibold">Anna D.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Nice interface and quick scanning. The app feels lightweight.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/men/41.jpg">
+<p class="font-semibold">Daniel S.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Scans QR codes instantly. No delay at all.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/25.jpg">
+<p class="font-semibold">Fatima A.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>I like that this app doesn't force subscriptions like other scanners.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/men/66.jpg">
+<p class="font-semibold">Carlos M.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Very useful for scanning restaurant menus and links.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/12.jpg">
+<p class="font-semibold">Emily T.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Simple and effective. Does exactly what a QR scanner should do.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/men/14.jpg">
+<p class="font-semibold">Omar K.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Works great offline too. Very convenient.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/29.jpg">
+<p class="font-semibold">Laura P.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>The scanning speed is impressive compared to other apps.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/men/21.jpg">
+<p class="font-semibold">Michael B.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Very smooth experience. Scans both QR codes and barcodes easily.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/50.jpg">
+<p class="font-semibold">Sara W.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Fast and reliable. I use it daily.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/men/30.jpg">
+<p class="font-semibold">David H.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>The best QR reader I have used on Android.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/52.jpg">
+<p class="font-semibold">Linda J.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Very clean interface and quick results.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/men/60.jpg">
+<p class="font-semibold">Hassan R.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Great app for scanning links and contact QR codes.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/34.jpg">
+<p class="font-semibold">Maya S.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Love the simple design. No clutter.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/men/45.jpg">
+<p class="font-semibold">Tom W.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Very fast barcode recognition.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/39.jpg">
+<p class="font-semibold">Natalie C.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Perfect for scanning event tickets and QR passes.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/men/71.jpg">
+<p class="font-semibold">Yusuf A.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Works instantly without any lag.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/42.jpg">
+<p class="font-semibold">Julia R.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Very lightweight and efficient.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/men/57.jpg">
+<p class="font-semibold">Kevin L.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Great scanner for both QR and barcodes.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/27.jpg">
+<p class="font-semibold">Ayesha N.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Connected to WiFi QR instantly. Really useful feature.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/men/62.jpg">
+<p class="font-semibold">Peter G.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Reliable and fast scanning every time.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/47.jpg">
+<p class="font-semibold">Monica V.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Works perfectly for scanning product barcodes.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/men/36.jpg">
+<p class="font-semibold">Ryan F.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Very easy to use and scans immediately.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/31.jpg">
+<p class="font-semibold">Grace T.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>I like that there are no spammy ads.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/men/59.jpg">
+<p class="font-semibold">Lucas P.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Great QR code scanner with clean UI.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/37.jpg">
+<p class="font-semibold">Nadia K.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Works instantly even in low light.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/men/26.jpg">
+<p class="font-semibold">Chris B.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Very accurate scanning.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/21.jpg">
+<p class="font-semibold">Olivia S.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Perfect QR reader for everyday use.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/men/64.jpg">
+<p class="font-semibold">Hugo R.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Very smooth performance and fast response.</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/16.jpg">
+<p class="font-semibold">Elena M.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Excellent QR scanner app. Highly recommended.</p>
+</div>
 
 </div>
 
-`
-
-  
-
-}
-
-</script>
-
-</body>
-</html>
-```
-
-
-
-
-<section class="py-24 text-center">
-
-<h3 class="text-4xl font-bold mb-12">
-
-Download the Safe QR Scanner
-
-</h3>
-
-<p class="text-gray-300 mb-10">
-
-Fast QR scanner without ads. Scan QR code instantly.
-
-</p>
-
-<a href="https://play.google.com/store/apps/details?id=com.teknoefsun.qr"
-class="download-btn px-10 py-4 rounded-lg text-lg font-semibold">
-
-Get it on Google Play
-
-</a>
+</div>
 
 </section>
 
@@ -813,19 +535,11 @@ colorLight:"#04153A"
 
 new Swiper('.swiper',{
 loop:true,
-autoplay:{delay:2500},
-slidesPerView:1
-});
-
-const userLang=navigator.language.substring(0,2);
-
-document.querySelectorAll(".review-card").forEach(r=>{
-if(r.dataset.lang!==userLang){
-r.style.opacity="0.7";
-}
+autoplay:{delay:2500}
 });
 
 </script>
 
 </body>
 </html>
+```
