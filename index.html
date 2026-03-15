@@ -15,7 +15,11 @@
 <link rel="canonical" href="https://aysecs11.github.io/qr/">
 
 <link rel="icon" href="https://image2url.com/r2/default/images/1773217532654-8026c833-cac8-4502-9972-5bfddc8a6b3d.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://play-lh.googleusercontent.com/9d9gJp6I0fZ7G3ZbCk8X7zM7xqL5Fq2E2n4z1n3vC5sGkUqGQx1y0T2M5kWjVxA=s32">
 
+<link rel="icon" type="image/png" sizes="16x16" href="https://play-lh.googleusercontent.com/9d9gJp6I0fZ7G3ZbCk8X7zM7xqL5Fq2E2n4z1n3vC5sGkUqGQx1y0T2M5kWjVxA=s16">
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://play-lh.googleusercontent.com/9d9gJp6I0fZ7G3ZbCk8X7zM7xqL5Fq2E2n4z1n3vC5sGkUqGQx1y0T2M5kWjVxA=s180">
 <meta property="og:title" content="QR Scanner & Barcode Scanner – Safe QR Code Reader">
 <meta property="og:description" content="Fast QR scanner without ads. Scan QR codes and barcodes instantly.">
 <meta property="og:image" content="https://play-lh.googleusercontent.com/Rxz4ZIySZ35W4sIvKeX5gEn_EfN13vFgUlAMubYgsihbXxD2tpG716p8kHUMGtnXpGmlJCoYn3wueyoek3060T4=w5120-h2880-rw">
@@ -27,7 +31,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"MobileApplication",
+"name":"QR & Barcode Scanner",
+"operatingSystem":"Android",
+"applicationCategory":"UtilitiesApplication",
+"aggregateRating":{
+"@type":"AggregateRating",
+"ratingValue":"4.8",
+"ratingCount":"1200"
+},
+"offers":{
+"@type":"Offer",
+"price":"0",
+"priceCurrency":"USD"
+},
+"downloadUrl":"https://play.google.com/store/apps/details?id=com.teknoefsun.qr"
+}
+</script>
+  <link rel="canonical" href="https://aysecs11.github.io/qr/">
+  
 <style>
 .carousel-img{
 min-width:100%;
@@ -584,7 +609,30 @@ autoplay:{delay:2500}
 });
 
 </script>
+<script>
 
+let index=0;
+
+function showSlide(){
+const carousel=document.getElementById("screenshotCarousel");
+carousel.style.transform=`translateX(-${index*100}%)`;
+}
+
+function nextSlide(){
+const slides=document.querySelectorAll(".carousel-img");
+index=(index+1)%slides.length;
+showSlide();
+}
+
+function prevSlide(){
+const slides=document.querySelectorAll(".carousel-img");
+index=(index-1+slides.length)%slides.length;
+showSlide();
+}
+
+setInterval(nextSlide,4000);
+
+</script>
 </body>
 </html>
 
